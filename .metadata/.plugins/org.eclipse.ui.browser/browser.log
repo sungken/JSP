@@ -1,0 +1,18 @@
+
+4월 02, 2024 09:09:39.460 NEW SESSION
+4월 02, 2024 09:09:39.460 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 02, 2024 11:58:29.487 [17716:7592:0402/115829.487:ERROR:interface_endpoint_client.cc(707)] Message 5 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 12:33:08.860 [17716:7592:0402/123308.860:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 15:03:38.162 [17716:7592:0402/150338.162:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 15:03:38.162 [17716:7592:0402/150338.162:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 15:05:35.126 [17716:13468:0402/150535.125:ERROR:cert_verify_proc_builtin.cc(878)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+4월 02, 2024 15:05:35.126 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+4월 02, 2024 15:05:35.126 ERROR: Time is after notAfter
+4월 02, 2024 15:05:35.127 
+4월 02, 2024 15:05:35.127 
+4월 02, 2024 15:55:37.980 [17716:7592:0402/155537.980:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 16:13:01.293 [17716:7592:0402/161301.293:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 16:13:01.293 [17716:7592:0402/161301.293:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 16:19:52.593 [17716:7592:0402/161952.593:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 17:07:05.736 [17716:7592:0402/170705.736:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 17:21:22.915 [17716:7592:0402/172122.915:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost

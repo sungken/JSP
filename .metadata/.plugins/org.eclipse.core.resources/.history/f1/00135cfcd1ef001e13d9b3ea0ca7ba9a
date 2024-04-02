@@ -1,0 +1,26 @@
+package com.test.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Ex03_Receive extends HttpServlet{
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		// HttpServletRequest req : 클라이언트 > 서버로 보낸 것
+		// HttpServletResponse resp : 클라이언트 > 서버로 보낸 것
+		
+		//전송된 데이터를 받아주는(수신) 공간
+		
+		
+		
+	}
+	
+	
+	
+}
