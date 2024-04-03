@@ -16,3 +16,4 @@
 4월 02, 2024 16:19:52.593 [17716:7592:0402/161952.593:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
 4월 02, 2024 17:07:05.736 [17716:7592:0402/170705.736:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
 4월 02, 2024 17:21:22.915 [17716:7592:0402/172122.915:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 02, 2024 17:38:31.381 [17716:7592:0402/173831.380:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
