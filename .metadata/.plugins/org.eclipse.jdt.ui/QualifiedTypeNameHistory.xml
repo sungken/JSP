@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.Wildcard"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.test.memo.MemoDTO"/>
 </qualifiedTypeNameHistroy>
