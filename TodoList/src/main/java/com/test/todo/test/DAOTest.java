@@ -23,7 +23,6 @@ class DAOTest {
 		System.out.println("add");
 		assertEquals(2, result);
 		
-		
 	}
 	
 	@Test
@@ -52,14 +51,5 @@ class DAOTest {
 	}
 
 }
-
-
-
-
-
-
-
-
-
 
 

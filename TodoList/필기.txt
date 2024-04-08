@@ -1,4 +1,9 @@
+
+JSP Model 2 + JDBC
+
+
 Todo List
+
 - New > "TodoList" > "todo" + web.xml
 
 - TodoList > "script.sql"
@@ -12,11 +17,33 @@ Todo List
 				  > "AddOk.java"
 				  > "CheckOk.java"
 				  > "DelOk.java"
-				  
+
 - "com.test.todo.model" > "TodoDAO.java"
-						> "TodoDTO.java"
+                        > "TodoDTO.java"
 
 - WEB-INF > "views" > "main.jsp"
                     > "addok.jsp"
                     > "checkok.jsp"
                     > "delok.jsp"
+
+- web.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

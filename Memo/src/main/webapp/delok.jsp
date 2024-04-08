@@ -13,7 +13,7 @@
 	//POST + 한글
 	request.setCharacterEncoding("UTF-8");
 	
-	//데이터 가져오기
+		//데이터 가져오기
 	String pw = request.getParameter("pw");
 	String seq = request.getParameter("seq");
 	
