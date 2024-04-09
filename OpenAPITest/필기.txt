@@ -49,6 +49,9 @@ const obj = {
 
 - com.test.api.model > "MapDAO.java"
                      > "MarkerDTO.java"
+                     
+- "com.test.api.chart" > "Ex01.java"
+- view > "chart" > "ex01.jsp"
 
 
 

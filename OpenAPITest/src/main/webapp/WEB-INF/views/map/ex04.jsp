@@ -100,7 +100,15 @@
 		
 		//지도 이벤트(줌 인/아웃)
 		kakao.maps.event.addListener(map, 'zoom_changed', function(evt) {
-			
+			countMarker();
+		});
+		
+		//지도 이벤트(드래그)
+		kakao.maps.event.addListener(map, 'dragend', function(evt) {
+			countMarker();
+		});
+		
+		function countMarker() {
 			//$('.message').text(map.getLevel());
 			mcount = 0;
 			
@@ -113,8 +121,7 @@
 			});
 			
 			$('.message').text(mcount);
-			
-		});
+		}
 		
 		function contains(item) {
 			

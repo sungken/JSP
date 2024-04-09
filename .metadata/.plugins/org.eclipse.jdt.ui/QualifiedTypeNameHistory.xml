@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.Wildcard"/>
     <fullyQualifiedTypeName name="com.test.memo.MemoDTO"/>
     <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
@@ -20,9 +19,13 @@
     <fullyQualifiedTypeName name="com.test.api.model.BookDAO"/>
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.test.api.model.BookDTO"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.io.Writer"/>
+    <fullyQualifiedTypeName name="com.test.ajax.model.AjaxDAO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 </qualifiedTypeNameHistroy>
