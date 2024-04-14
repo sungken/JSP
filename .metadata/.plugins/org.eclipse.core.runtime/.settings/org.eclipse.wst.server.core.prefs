@@ -1,3 +1,7 @@
 eclipse.preferences.version=1
 module-start-timeout=300000
+<<<<<<< HEAD
 runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="Apache Tomcat v9.0" location\="C\:/class/dev/apache-tomcat-9.0.87" name\="Apache Tomcat v9.0" runtime-type-id\="org.eclipse.jst.server.tomcat.runtime.90" timestamp\="0"/>\r\n</runtimes>\r\n
+=======
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="Apache Tomcat v9.0" location\="C\:/class/dev/apache-tomcat-9.0.87" name\="Apache Tomcat v9.0" runtime-type-id\="org.eclipse.jst.server.tomcat.runtime.90" timestamp\="1" vm-install-id\="1711930186886" vm-install-type-id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType"/>\r\n</runtimes>\r\n
+>>>>>>> 7f2d35138d9e24ff86ae57c56b34d59645363020

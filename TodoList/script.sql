@@ -13,6 +13,10 @@ create sequence seqTodo;
 
 select * from tblTodo;
 
+delete from tblTodo;
+commit;
+
+
 
 
 
