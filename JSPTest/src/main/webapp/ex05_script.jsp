@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>구구단</title>
 </head>
 <body>
 	<!-- ex05_script.jsp -->
@@ -16,10 +16,14 @@
 		int dan = 5;
 	
 	%>
-	
+	<h2>5단</h2>
 	<%for(int i=1; i<=9; i++){ %>
 	<div><%= dan%> x <%= i%> = <%= dan * i%></div>
 	<%}%>
+	<h2>6단</h2>
+	<%for(int i=1; i<=9; i++){ %>
+	<div><%= dan + 1 %> x <%= i %> = <%= (dan+1) * i %></div>
+	<%} %>
 
 
 </body>

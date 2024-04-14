@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+ <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -36,19 +36,31 @@
 			<tr>
 				<th>체크 박스 들</th>
 				<td>
-					<h3>취미를 선택하세요.(복수 선택 가능)</h3> <label><input type="checkbox"
-						name="cb2" value="독서">독서</label> <label><input
-						type="checkbox" name="cb3" value="운동">운동</label> <label><input
-						type="checkbox" name="cb4" value="코딩">코딩</label>
+					<h3>취미를 선택하세요.(복수 선택 가능)</h3> 
+					<label>
+						<input type="checkbox" name="cb2" value="독서">독서
+					</label> 
+					<label>
+						<input type="checkbox" name="cb3" value="운동">운동
+					</label> 
+					<label>
+						<input type="checkbox" name="cb4" value="코딩">코딩
+					</label>
 				</td>
 			</tr>
 			<tr>
 				<th>체크 박스 들2</th>
 				<td>
-					<h3>취미를 선택하세요.(복수 선택 가능)</h3> <label><input type="checkbox"
-						name="cb5" value="독서">독서</label> <label><input
-						type="checkbox" name="cb5" value="운동">운동</label> <label><input
-						type="checkbox" name="cb5" value="코딩">코딩</label> <!-- name="cb5" 로 한번에 넘겨 버리기 -->
+					<h3>취미를 선택하세요.(복수 선택 가능)</h3> 
+					<label>
+						<input type="checkbox" name="cb5" value="독서">독서
+					</label> 
+					<label>
+						<input type="checkbox" name="cb5" value="운동">운동
+					</label> 
+					<label>
+						<input type="checkbox" name="cb5" value="코딩">코딩
+					</label> <!-- name="cb5" 로 한번에 넘겨 버리기 -->
 				</td>
 			</tr>
 			<tr>

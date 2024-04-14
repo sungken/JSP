@@ -1,0 +1,11 @@
+package manager;
+
+public class MemberVo {
+	
+	private int num;
+	private String memberId;
+	private String memberPw;
+	private String nickName;
+	private Date regdate;
+	
+}

@@ -1,9 +1,9 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="examjdbc01.MemberVo"><rhs name\="examjdbc01.MemberVo"/></lhs></history>
 content_assist_number_of_computers=17
 eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
-org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.formatterprofiles.version=23
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="java-statements" deleted\="false" description\="try catch block" enabled\="true" id\="org.eclipse.jdt.ui.templates.try" name\="try_catch">try {\r\n    ${line_selection}${cursor}\r\n} catch (${Exception} ${exception_variable_name}) {\r\n    System.out.println("${primary_type_name}.${enclosing_method}");\r\n    e.printStackTrace();\r\n// ${todo}\: handle exception\r\n}</template></templates>
 sourceHoverBackgroundColor=47,47,47
 spelling_locale_initialized=true

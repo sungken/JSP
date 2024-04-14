@@ -33,9 +33,9 @@
 			<th>번호</th>
 			<th>이름</th>
 		</tr>
-		<% for (int i=0; i<names.size(); i++) { %>
+			<% for (int i=0; i<names.size(); i++) { %>
 		<tr>
-			<td><%= i + 1 %></td>
+			<td onclick="num(<%= i + 1 %>);"><%= i + 1 %></td>
 			<td onclick="info('<%= names.get(i) %>');"><%= names.get(i) %></td>
 		</tr>
 		<% } %>
@@ -45,6 +45,10 @@
 	<script>
 		function info(name) {
 			alert(name);
+		}
+		
+		function num(number) {
+			alert(number);
 		}
 	</script>
 

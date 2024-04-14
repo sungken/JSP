@@ -35,7 +35,7 @@
 	<h1>Memo <small>목록보기</small></h1>
 	
 	<div id="list">
-		<% for (MemoDTO dto : list) { %>
+		<% for (MemoDTO dto : list) { %> 
 		<div class="item">
 			<div><%= dto.getMemo()%></div>
 			<div>
