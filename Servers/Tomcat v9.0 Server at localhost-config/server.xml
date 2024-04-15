@@ -161,10 +161,14 @@
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Context docBase="Memo" path="/memo" reloadable="true" source="org.eclipse.jst.jee.server:Memo"/><Context docBase="ServletTest" path="/ServletTest" reloadable="true" source="org.eclipse.jst.jee.server:ServletTest"/><Context docBase="TodoList" path="/TodoList" reloadable="true" source="org.eclipse.jst.jee.server:TodoList"/><Context docBase="MVCTest" path="/mvc" reloadable="true" source="org.eclipse.jst.jee.server:MVCTest"/><Context docBase="JSPTest" path="/jsp" reloadable="true" source="org.eclipse.jst.jee.server:JSPTest"/><Context docBase="board" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board"/></Host>
 =======
       <Context docBase="AjaxTest" path="/ajax" reloadable="true" source="org.eclipse.jst.jee.server:AjaxTest"/></Host>
 >>>>>>> 7f2d35138d9e24ff86ae57c56b34d59645363020
+=======
+      <Context docBase="AjaxTest" path="/ajax" reloadable="true" source="org.eclipse.jst.jee.server:AjaxTest"/><Context docBase="ToyProject" path="/toy" reloadable="true" source="org.eclipse.jst.jee.server:ToyProject"/></Host>
+>>>>>>> 5f9abd5dde41d523756bfa492527442573851abb
     </Engine>
   </Service>
 </Server>

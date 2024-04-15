@@ -20,9 +20,9 @@
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="com.test.api.model.BookDTO"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
 <<<<<<< HEAD
@@ -39,8 +39,27 @@
     <fullyQualifiedTypeName name="examjdbc01.MemberVo"/>
 =======
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+=======
+>>>>>>> 5f9abd5dde41d523756bfa492527442573851abb
     <fullyQualifiedTypeName name="com.test.ajax.model.UserDTO"/>
     <fullyQualifiedTypeName name="com.test.ajax.model.AjaxDAO"/>
+    <fullyQualifiedTypeName name="com.test.ajax.model.CatDTO"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.jni.Address"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Patch"/>
+    <fullyQualifiedTypeName name="com.test.ajax.model.AddressDTO"/>
+    <fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
+    <fullyQualifiedTypeName name="com.test.toy.user.Register"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.test.toy.user.model.UserDTO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<<<<<<< HEAD
 >>>>>>> 7f2d35138d9e24ff86ae57c56b34d59645363020
+=======
+    <fullyQualifiedTypeName name="com.test.util.OutputUtil"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+>>>>>>> 5f9abd5dde41d523756bfa492527442573851abb
 </qualifiedTypeNameHistroy>
