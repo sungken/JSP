@@ -40,7 +40,6 @@
 	margin-bottom: 1rem;
 }
 
-
 #list .isnew {
 	font-size: 14px;
 	color: tomato;
@@ -48,7 +47,41 @@
 
 
 
+/* 상세보기 */
+#view tr:nth-child(4) {
+	height: 200px;
+}
 
+#view tr:nth-child(3) td {
+	word-break: break-all;
+}
+
+
+/* 검색 폼 */
+#searchForm {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#labelSearchResult {
+	margin: .5rem;
+	text-align: center;
+}
+
+#pagebar {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+
+/* 댓글 */
+#comment td:nth-child(1) { width: auto; }
+#comment td:nth-child(2) { width: 150px; text-align: center; }
+#comment .commentContent div:last-child { font-size: 12px; text-align: right; }
+
+#addComment td:nth-child(1) {width: auto;}
+#addComment td:nth-child(2) { width: 150px; text-align: center; }
 
 
 
