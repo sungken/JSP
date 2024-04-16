@@ -1,4 +1,4 @@
-show user; -- system
+show user;-- system
 
 
 --alter session set "_oracle_script" = true;
