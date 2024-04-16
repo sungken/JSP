@@ -1,0 +1,11 @@
+package manager;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MemberDAO {
+	
+	//db역할
+	Map<Integer, MemberVo> db = new HashMap<>();
+
+}//MemberDAO
