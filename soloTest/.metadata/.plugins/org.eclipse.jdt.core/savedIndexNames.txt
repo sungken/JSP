@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+C:\Users\성큰\Desktop\코딩test\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-14926631.index
-1617692435.index
-84252450.index
