@@ -80,6 +80,7 @@ public class UserDAO {
 
 	public int unregister(String id) {
 		
+		//queryParamNoReturn
 		try {
 
 			String sql = "update tblUser set pw = '0000', name = '탈퇴', email = '탈퇴', pic = default, intro = null, ing = 0 where id = ?";
@@ -90,15 +91,16 @@ public class UserDAO {
 			return pstat.executeUpdate();
 
 		} catch (Exception e) {
+			System.out.println("UserDAO.unregister");
 			e.printStackTrace();
 		}
-		
 		
 		return 0;
 	}
 
 	public UserDTO getUser(String id) {
 		
+		//queryParamDTOReturn
 		try {
 			
 			String sql = "select * from tblUser where id = ?";
@@ -120,14 +122,12 @@ public class UserDAO {
 				dto.setPic(rs.getString("pic"));
 				dto.setRegdate(rs.getString("regdate"));
 				
-				return dto;	
-						
+				return dto;				
 			}	
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
 		
 		return null;
 	}

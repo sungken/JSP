@@ -1,4 +1,4 @@
-show user;-- system
+show user; -- system
 
 
 alter session set "_oracle_script" = true;
@@ -66,9 +66,11 @@ select
             to_char(regdate, 'yyyy-mm-dd')
     end regdate,
     (sysdate - regdate) as isnew,
-    content
-from tblBoard 
-    order by seq desc;
+    content,
+    (select count(*) from tblComment where bseq = tblBoard.seq) as commentCount,
+    depth
+from tblBoard
+    order by thread desc;
 
 
 select * from vwBoard;
@@ -107,20 +109,87 @@ create table tblComment (
 
 create sequence seqComment;
 
+-- 2	안녕하세요. 강아지입니다.	dog	24/04/16	268
 select * from tblComment;
 
+select a.*, (select name from tblUser where id = a.id) as name from tblComment a;
+
+
+
+drop table tblComment;
+drop table tblBoard;
+
+-- 게시판(+답변)
+create table tblBoard (
+    seq number primary key,                         --번호(PK)
+    subject varchar2(300) not null,                 --제목
+    content varchar2(4000) not null,                --내용
+    id varchar2(50) not null references tblUser(id),--아이디(FK)
+    regdate date default sysdate not null,          --작성날짜
+    readcount number default 0 not null,            --조회수
+    thread number not null,                         --답변형(정렬)
+    depth number not null                           --답변형(출력)
+);
+
+
+select * from tblBoard;
+select * from tblComment;
+
+delete from tblComment;
+commit;
+
+select * from
+    (select b.*, rownum as rnum from
+        (select a.*, (select name from tblUser where id = a.id) as name 
+            from tblComment a where bseq = 281 order by seq desc) b)
+                where rnum between 1 and 10;
+
+
+delete from tblComment;
+delete from tblBoard;
+
+commit;
 
 
 
 
 
+drop table tblComment;
+drop table tblBoard;
 
+-- 게시판(+첨부파일)
+create table tblBoard (
+    seq number primary key,
+    subject varchar2(300) not null,
+    content varchar2(4000) not null,
+    id varchar2(50) not null references tblUser(id),
+    regdate date default sysdate not null,
+    readcount number default 0 not null,
+    thread number not null,  --답변형(정렬)
+    depth number not null,    --답변형(출력)
+    attach varchar2(100) null
+);
 
+select * from tblBoard;
+commit;
 
+-- 게시물 1개 <- N : N -> 해시태그 1개
 
+create table tblHashtag (
+    seq number primary key,
+    tag varchar2(100) unique not null
+);
+create sequence seqHashtag;
 
+create table tblTagging (
+    seq number primary key,
+    bseq number not null references tblBoard(seq),
+    hseq number not null references tblHashtag(seq)
+);
+create sequence seqTagging;
 
-
+select * from tblTagging;
+select * from tblHashtag;
 
 
 

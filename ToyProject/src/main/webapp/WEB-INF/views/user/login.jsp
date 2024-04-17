@@ -16,7 +16,7 @@
 	
 	<div id="main">
 		
-		<h1>회원 <small>로그인</small></h1>
+		<h1 class="sub">회원 <small>로그인</small></h1>
 		
 		<form method="POST" action="/toy/user/login.do">
 		<table class="vertical">
@@ -39,7 +39,7 @@
 	
 	<hr>
 	
-	<div style="display: flex; justify-content: space-between;">
+	<div style="display: flex;">
 		<form method="POST" action="/toy/user/login.do">
 			<input type="hidden" name="id" value="hong">
 			<input type="hidden" name="pw" value="1111">
