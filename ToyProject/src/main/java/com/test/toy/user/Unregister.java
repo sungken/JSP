@@ -30,8 +30,8 @@ public class Unregister extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		//1. 인증 티켓 > 탈퇴할 아이디
-		//2. DB작업 > update
+		//1. 인증 티켓 > 탈퇴할 id
+		//2. DB 작업 > update
 		//3. 결과
 		
 		HttpSession session = req.getSession();
@@ -41,27 +41,26 @@ public class Unregister extends HttpServlet {
 		
 		int result = dao.unregister(id);
 		
-		if(result == 1) {
+		if (result == 1) {
+			
 			//탈퇴 성공
 			session.invalidate();
+			
 			resp.sendRedirect("/toy/index.do");
 			
 		} else {
+			
 			resp.setCharacterEncoding("UTF-8");
 			
 			PrintWriter writer = resp.getWriter();
 			writer.print(OutputUtil.redirect("실패했습니다."));
 			writer.close();
+			
 		}
-		
 		
 	}
 
 }
-
-
-
-
 
 
 

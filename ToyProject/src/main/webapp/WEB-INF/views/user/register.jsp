@@ -16,7 +16,7 @@
 	
 	<div id="main">
 		
-		<h1>회원 <small>가입하기</small></h1>
+		<h1 class="sub">회원 <small>가입하기</small></h1>
 		
 		<form method="POST" action="/toy/user/register.do" enctype="multipart/form-data">
 		<table class="vertical">
@@ -42,15 +42,13 @@
 			</tr>
 			<tr>
 				<th>소개</th>
-				<td> <textarea name="intro" id="intro" class="long"></textarea> </td>
+				<td><textarea name="intro" id="intro" class="long"></textarea></td>
 			</tr>
 		</table>
-		
 		<div>
-			<button type="button" class="back" onclick="location.href='/toy/index.do'">돌아가기</button>
-			<button type="submit" class="add primary">가입하기</button>
+			<button type="button" class="back" onclick="location.href='/toy/index.do';">돌아가기</button>
+			<button type="submit" class="in primary">가입하기</button>
 		</div>
-		
 		</form>
 		
 	</div>

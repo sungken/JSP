@@ -14,7 +14,7 @@
 	</welcome-file-list>
 	
 	
-	<!-- 어떤 서블릿 + 필터 사용 ***-->
+	<!-- 어떤 서블릿 + 필터 사용 -->
 	<filter>
 		<filter-name>encoding</filter-name>
 		<filter-class>com.test.toy.filter.EncodingFilter</filter-class>
@@ -25,7 +25,6 @@
 		<url-pattern>*.do</url-pattern>
 	</filter-mapping>
 	
-	<!-- 위 문법을 필터 등록 or 필터 맵핑 이라고 한다. -->
 	
 	
 	

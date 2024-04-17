@@ -23,7 +23,7 @@ public class Auth {
 		BoardDTO dto = dao.get(seq);
 		
 		//id != dto.id && lv != 2
-		if (session.getAttribute("id") == null || (!session.getAttribute("id").toString().equals(dto.getId())
+		if (session.getAttribute("id") == null || ( !session.getAttribute("id").toString().equals(dto.getId())
 				&& !session.getAttribute("lv").toString().equals("2"))) {
 			
 			resp.setCharacterEncoding("UTF-8");

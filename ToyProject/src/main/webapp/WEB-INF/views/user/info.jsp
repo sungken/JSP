@@ -16,7 +16,7 @@
 	
 	<div id="main">
 		
-		<h1>회원 <small>정보보기</small></h1>
+		<h1 class="sub">회원 <small>정보보기</small></h1>
 		
 		<table id="info">
 			<tr>

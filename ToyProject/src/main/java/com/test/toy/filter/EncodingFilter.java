@@ -21,13 +21,13 @@ public class EncodingFilter implements Filter {
 	
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-			
+		
 		//System.out.println("필터 동작");
 		
-		// 인코딩 처리
+		//인코딩 처리
 		request.setCharacterEncoding("UTF-8");
 		
-		// 그 다음 필터 호출 or 서블릿 호출
+		//그 다음 필터 호출 or 서블릿 호출
 		chain.doFilter(request, response);
 		
 	}
